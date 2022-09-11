@@ -1,0 +1,71 @@
+.btn .search{
+    background: #021633!important;
+    border: 2px solid #021633;
+    color: #fff!important;
+    margin-left: 3px!important;
+}
+.btn .search:hover{
+    border: 2px solid #021633;
+    background: transparent;
+    color: #021633;
+}
+.section-search{
+    background: #018ca5;
+}
+@media(min-width:768px){
+    .tab-search{
+        margin-top: -60px;
+
+    }
+}
+.tab-search .nav-pills p{
+    margin-bottom: 0px;
+}
+.tab-search .nav-pills .nav-link{
+    float: left;
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #fff;
+}
+.tab-search .nav-pills .nav-link.active{
+    background: #5f9fff;
+}
+@media (min-width:768px){
+    .tab-search .nav-pills .nav-link.active{
+        margin-top: -10px;
+    }
+}
+/*****welcome section******/
+.heading-section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.img-wrap .effect{
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+}
+.img-wrap .effect:after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top:10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: #011525;
+    transition: .3s all ease-in-out;
+}
+.img-wrap:hover .effect:after{
+    right: -10px;
+    bottom: -10px;
+    position: absolute;
+}
+@keyframes skew{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
